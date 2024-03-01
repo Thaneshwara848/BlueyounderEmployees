@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            window.alert("Hi Clicked ")
+        }
+        function validationtext(){
+           un= document.getElementById("uname").value;
+           if(un.length==0){
+            document.getElementById('demo').innerHTML="<p style='color:red'>Name must be Requried....!</p>";
+           }
+           else if(un.length<3 && un.length >0 ){
+                // alert("Name must be min 3 char ")
+                document.getElementById('demo').innerHTML="<p style='color:red'>Name must be min 3 char</p>";
+           }
+           else if(un.length >10  ){
+            document.getElementById('demo').innerHTML="<p style='color:red'>Name must be max 10 char</p>";
+                // alert("Name must be max 10 char ")
+           }
+           else if(un.length>=3 && un.length <=10){
+            document.getElementById('demo').innerHTML="<p style='color:green'>Name is okay </p>";
+                // alert("Name is okay ")
+           }
+        }
+    </script>
+</head>
+<body>
+            Name : 
+            <input type="text" id="uname">
+            <span id="demo"></span><br>
+
+
+            <input type="submit" onclick="validationtext()" value="validation"> 
+        <input type="submit" onclick="abc()" value="SibleClick">
+        <input type="submit" ondblclick="abc()" value="DOubleClick">
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

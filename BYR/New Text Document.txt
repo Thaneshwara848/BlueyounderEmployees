@@ -1,0 +1,46 @@
+Java Script : 
+	Data Types : basics 
+	condations : 
+		if , if else, switch 
+	Loops : 
+		for , while, Do while 
+	Jumping : 
+		return , continue , break 
+	Operatorsd : 
+		uniry , binry , trnry 
+		Aritmetic 
+		Condational 
+		assignment 
+		Logical 
+	Numbers and its methods 
+	String its methods 
+	Date and its methods 
+
+	var / let / const 
+	Array 
+
+	Functions
+	Events 
+	DOM 
+	BOM 
+	Evemtes : 
+		onclick , dbl , focus , blue , mouseover ,out 
+		onsubmit, onload, onchage 
+	validations : 
+	ES5 : javascript 
+	ES6 : 
+		advance java script 
+			class 
+			objct 
+			oops 
+			json 
+			Set 
+			list 
+			map 
+			EH 
+			
+				
+ 				
+
+
+		

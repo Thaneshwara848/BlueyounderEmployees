@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+</head>
+<body>
+    
+<p id="demo"></p>
+
+    <script>
+        function Employee(uid,first, age, salary ,desig) {
+            this.uid = uid;
+            this.first = first;
+            this.age = age;
+            this.salary=salary;
+            this.desig=desig
+        
+    }
+
+        const emp1 = new Employee(100,"Charan", 50, 5000,"Clerk");
+        const emp2 = new Employee(200,"Dilip", 50, 5000,"Clerk");
+        emp1.pan="ABC123";
+        document.getElementById("demo").innerHTML = emp1.pan; 
+    </script>
+    
+</body>
+</html>

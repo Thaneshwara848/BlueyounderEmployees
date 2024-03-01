@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      var Demo8 = /** @class */ (function () {
+    function Demo8(id, name, age) {
+        console.log("ID :" + id);
+        console.log("Name :" + name);
+        console.log("Age :");
+    }
+    Demo8.prototype.display = function () {
+        console.log("Hi method....!");
+    };
+    return Demo8;
+}());
+var d = new Demo8(100, "DDDDD", 35);
+d.display();
+
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

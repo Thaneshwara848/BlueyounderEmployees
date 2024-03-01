@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+                var un=document.getElementById('uname').value;
+                sessionStorage.setItem("user",un);
+        }
+        function display(){
+            var username=localStorage.getItem("user");
+            console.log(username)
+            document.getElementById("uname").value=username;
+        }
+    </script>
+</head>
+<body>
+    <div style="text-align: center;">
+        UID:  <input type="text" id="uid"><br>
+        Name:  <input type="text" id="uname"><br>
+        Age:  <input type="text" id="uage"><br>
+        Saalry:  <input type="text" id="usalary"><br>
+        Desig:  <input type="text" id="udesig"><br>
+        <input type="submit" onclick="abc()" value="STORE"><hr>
+        <input type="button" onclick="display()" value="DISPLAY">
+        <input type="button" onclick="delete()" value="Delete">
+    </div>
+    
+    
+</body>
+</html>

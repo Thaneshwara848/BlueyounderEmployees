@@ -1,0 +1,51 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script >
+
+    var array1 = [10, 20, 30, 40, 50];
+    var array2 = [60, 70, 80, 90, 100];
+    //spread operator (…)
+    var array3 = [...array1, ...array2];
+   console.log(array3);
+
+   var array1 = [10, 20, 30, 40, 50];
+    var array2 = [...array1, 60];
+    console.log(array2);
+
+    const obj = {
+        firstname: "Divit",
+        lastname: "Patidar",
+    };
+
+    const obj2 = { ...obj };
+    console.log(obj2);
+//Rest operator: The rest parameter is converse to the spread operator.
+//while the spread operator expands elements of an iterable
+//the rest operator compresses them. It collects several elements.
+//In functions when we require to pass arguments but were not sure
+// how many we have to pass, the rest parameter makes it easier. 
+
+
+
+	function numberss(...args) {
+        for(var i=0;i<args.length;i++){
+            console.log(args[i])
+        }
+	}
+    
+  numberss(1, 2, 3, 4, 5,7)
+  numberss(1, 2, 3)
+
+
+  </script>
+  
+</head>
+
+<body>
+  <h1>REST and SPRED Opeator</h1>
+  <input type="submit" onclick="average()">
+</body>
+
+</html>
